@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes.Settings>
+  <formato>0</formato>
+  <currency__config>€</currency__config>
+  <decimals__config>2</decimals__config>
+  <date__config>dd/mm/yyyy</date__config>
+  <dummies>true</dummies>
+  <language>English</language>
+  <theme>METAL</theme>
+</classes.Settings>

@@ -1,0 +1,40 @@
+
+---->	Con Dummies	
+		Lo que hara sera borrar los usuarios cargados de los archivos y crear seis usuarios nuevos de cada
+		tipo , al salir no guardara los usuarios ya que son dummies . Antes de crear un usuario con dummies 
+		comprueba el find y si existe crea otro
+		
+---->	Sin dummies 
+		Los usuarios se guardaran  y cargaran automaticamente ,  las modificaciones del los usuarios tambien
+		se guardara 
+		
+---->	Con o sin dummies
+		Se pueden crear usuario(manualmente), modificar o elminar los usuarios , los settings se guardan y 
+		cargan automaticamente sin importar el estado de los dummies .Si existe el fichero de settings lo 
+		cargara desde el fichero si no exite cargara los de defecto y al salir los guardara en un fichero 
+		settings. Valores por defecto en settings 
+	
+			date_config = "dd/mm/yyyy";
+			currency_config = '€';
+			decimals_config = 2;
+			dummies = true;
+			formato = 0; //XML
+			language = "English";
+			theme = "METAL";
+		
+----->	Crear 
+		DNI 8 numeros y una letra mayuscula 
+		La contraseña debe tener almenos 8 caracteres incluyendo 1 numero ,1 letra mayuscula y 1 una letra
+		minuscula 
+		El tipo solo puede ser H o M 
+		Debe ser mayor de edad para aparecer en la aplicacion pero con 16 puede trabajar
+		
+----->	Update 
+		Se hara con o sin dummies de forma manual 
+		
+----->	Order
+		Con DNI ordena alfabeticamente por la letra 
+		Con edad ordena de menor a mayor al 
+		
+		
+		

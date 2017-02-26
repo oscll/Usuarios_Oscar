@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes.Settings>
+  <formato>0</formato>
+  <currency__config>£</currency__config>
+  <decimals__config>1</decimals__config>
+  <date__config>yyyy/mm/dd</date__config>
+  <dummies>false</dummies>
+  <language>English</language>
+  <theme>MOTIF</theme>
+</classes.Settings>
